@@ -13,4 +13,7 @@ create table Usuarios(
 );
 
 -- CONSULTANDO OS DADOS DO BANCO
-select * from Usuarios
+select * from Usuarios;
+
+insert into Usuarios (Id, Nome, Email, Senha)
+		values(1, "Vignon", "vignongameplays@gmail.com", "Salamaleico");
