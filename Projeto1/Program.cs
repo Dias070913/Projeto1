@@ -11,6 +11,8 @@ builder.Services.AddScoped<UsuarioRepositorio>(); //Repositorio do usuario
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
